@@ -31,5 +31,3 @@
 (Using Aqua for partition problems--https://github.com/Qiskit/qiskit-tutorials/blob/master/community/aqua/index.ipynb#aqua)(https://render.githubusercontent.com/view/optimization/partition.ipynb)
 (Using Aqua for stableset problems--https://github.com/Qiskit/qiskit-tutorials/blob/master/community/aqua/index.ipynb#aqua)(https://render.githubusercontent.com/view/optimization/stableset.ipynb)
 (Portfolio Optimization--https://github.com/Qiskit/qiskit-tutorials/blob/master/community/aqua/index.ipynb#aqua)(https://render.githubusercontent.com/qiskit/aqua/finance/portfolio_optimization.ipynb)
-
-i
