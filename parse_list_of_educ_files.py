@@ -1,3 +1,7 @@
+# parses the list_of_educ_files.md list and spits out, for each educational notebook, the following:
+# title of the notebook
+# the original location where it was cited (maybe another notebook or another URL somewhere)
+# the url pointing to the notebook
 contents = open('list_of_educ_files.md', 'r').readlines()
 for line in contents:
     linesplit = line.split(')(')
