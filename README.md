@@ -16,13 +16,13 @@ Qiskit that makes programming simpler for first-time users.
 
 Hooray!
 
-## Qiskit Education - a solution guide based to help educators teach Quantum more easily and effectively
+Qiskit Eductation Community Members
 
-#### Current Undertakings:
+# Current Undertakings
 1. Organize teaching material in a curriculum structure to make it easier for educators to build their own course syllabus.
 2. Build "Educator's Qiskit," a stable instance of Qiskit that makes programming simpler for first-time users.
 3. Provide clear guidelines for contributing to Qiskit Education (e.g., providing translations, tutorial contents)
 
-#### Contribution Guidelines:
+# Contribution Guidelines
 Qiskit Education invites educators and students in the field for input and guidance
 We will be providing contribution guidelines soon. 
