@@ -12,5 +12,5 @@ past no longer works at present.
 Motivated by this, and also inspired to make life easier for educators using Qiskit, we are creating a wrapper around
 Qiskit that makes programming simpler for first-time users.
 
-Hooray!
+Hooray2!
 
