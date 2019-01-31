@@ -10,7 +10,7 @@
 
 
 from qiskit import *
-
+from qiskit.tools.visualization import plot_histogram as plothistogram
 
 def get_backend(device):
     """Returns backend object for device specified by input string."""
@@ -96,12 +96,14 @@ class QuantumAlgorithm:
         self.qc.tdg(qubit)
     def cx(self,control,target):
         self.qc.cx(control,target)
+    def cz(self,control,target):
+        self.qc.cz(control,target)
     def ccx(self,control1,control2,target):
         self.qc.cx(control1,control2,target)
     def measure(self,qubit,bit):
         self.qc.measure(qubit,bit)
     
-    def execute(self,device='qasm_simulator',noisy=False,shots=1024):
+    def execute(self,device='qasm_simulator',noisy=False,shots=1024,histogram=True):
         
         backend = get_backend(device)
         try:
@@ -114,8 +116,16 @@ class QuantumAlgorithm:
             except:
                 job = execute(self.qc,backend,shots=shots)
                 data = {'counts':job.result().get_counts()}
-            
+        
+        if histogram:
+            self.plot_histogram(data['counts'])
+        
         return data
+    
+    def plot_histogram(self,counts):
+        return plothistogram(counts)
+            
+        
             
             
             
