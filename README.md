@@ -19,9 +19,8 @@ Hooray!
 Qiskit Eductation Community Members
 
 # Current Undertakings
-1. Organize teaching material in a curriculum structure to make it easier for educators to build their own course syllabus.
-2. Build "Educator's Qiskit," a stable instance of Qiskit that makes programming simpler for first-time users.
-3. Provide clear guidelines for contributing to Qiskit Education (e.g., providing translations, tutorial contents)
+We are curretly trying to organize teaching material in a curriculum structure to make it easier for educators to build their own course syllabus.
+Simultneously, we are building the beta version of "Educator's Qiskit," a stable instance of Qiskit that makes programming simpler for first-time users.
 
 # Contribution Guidelines
 Qiskit Education invites educators and students in the field for input and guidance
