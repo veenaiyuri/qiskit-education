@@ -102,9 +102,15 @@ class QuantumAlgorithm:
         self.qc.cx(control1,control2,target)
     def measure(self,qubit,bit):
         self.qc.measure(qubit,bit)
+<<<<<<< HEAD
 
     def execute(self,device='qasm_simulator',noisy=False,shots=1024,histogram=True):
 
+=======
+    
+    def execute(self,device='qasm_simulator',noisy=False,shots=1024,histogram=True):
+        
+>>>>>>> upstream/master
         backend = get_backend(device)
         try:
             job = execute(self.qc,backend,shots=shots,noise_model=get_noise(noisy),memory=True)
@@ -116,6 +122,7 @@ class QuantumAlgorithm:
             except:
                 job = execute(self.qc,backend,shots=shots)
                 data = {'counts':job.result().get_counts()}
+<<<<<<< HEAD
 
         if histogram:
             self.plot_histogram(data['counts'])
@@ -124,3 +131,18 @@ class QuantumAlgorithm:
 
     def plot_histogram(self,counts):
         return plothistogram(counts)
+=======
+        
+        if histogram:
+            self.plot_histogram(data['counts'])
+        
+        return data
+    
+    def plot_histogram(self,counts):
+        return plothistogram(counts)
+            
+        
+            
+            
+            
+>>>>>>> upstream/master
