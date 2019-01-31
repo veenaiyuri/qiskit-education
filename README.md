@@ -1,13 +1,28 @@
-## Qiskit Education
+# Qiskit Education - a solution guide to help educators teach Quantum more easily and effectively
 
-### Objective: Provide a solution guide based on Qiskit to help educators teach Quantum more easily and effectively
+# The problem
 
-#### Goal:
+Qiskit is an excellent educational tool. In addition to the built-in simulators that allow students to test quantum
+computation, they can upload their requests to a real IBM quantum computer and obtain some intution about the
+performance of their computations in a real system.
+
+Following the discussions with representatives from Harvard, Yale and NYU, one of the key lessons that we learned was
+that various version changes in Qiskit result in old notebooks breaking, such that course material which worked in the
+past no longer works at present. 
+
+# The solution
+Motivated by this, and also inspired to make life easier for educators using Qiskit, we are creating a wrapper around
+Qiskit that makes programming simpler for first-time users.
+
+Hooray!
+
+## Qiskit Education - a solution guide based to help educators teach Quantum more easily and effectively
+
+#### Current Undertakings:
 1. Organize teaching material in a curriculum structure to make it easier for educators to build their own course syllabus.
-2. Build "Educator's Qiskit," a stable instance of Qiskit for educators and students.
-3. Provide guidelines for contributing (e.g., translation, tutorial content)
+2. Build "Educator's Qiskit," a stable instance of Qiskit that makes programming simpler for first-time users.
+3. Provide clear guidelines for contributing to Qiskit Education (e.g., providing translations, tutorial contents)
 
-#### Approach:
-1. Involve educators in the field for input and guidance
-2. Ensure materials are in formats that are interactive and can be hosted in an executable environment. (e.g., Jupyter Book, Binder)
-3. Provide tools that will make it easier for students to visualize concepts without deep knowledge in the computing language (e.g., VPython)  
+#### Contribution Guidelines:
+Qiskit Education invites educators and students in the field for input and guidance
+We will be providing contribution guidelines soon. 
