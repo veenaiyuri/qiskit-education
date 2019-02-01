@@ -1,5 +1,4 @@
-![image of qiskit for educators](qiskit-edu.png)
-# Educator's Qiskit - a solution guide to help educators teach Quantum more easily and effectively
+![image of qiskit for educators](qiskit-edu.png)# Educator's Qiskit - a solution guide to help educators teach Quantum more easily and effectively
 
 # The problem
 
