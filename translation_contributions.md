@@ -4,7 +4,7 @@ First, thank you! Translating these materials can help you learn the concepts at
 
 ## Current translation efforts
 
-As of February 2019, the we are working on updating the translated content for German, Japanese, Korean, and Chinese while also establishing a process for contributing future content that can grow with Qiskit, taking advantage of translation tools.
+As of February 2019, we are working on updating the translated content for German, Japanese, Korean, and Chinese while also establishing a process for contributing future content that can grow with Qiskit, taking advantage of translation tools.
 
 ### Movement from `.rst` to using `gettext`
 
