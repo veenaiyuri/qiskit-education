@@ -37,11 +37,11 @@ Fork the [Qiskit docs repo](https://github.com/Qiskit/qiskit) and make a local c
 
   `$ sphinx-intl update -p _build/gettext -l ja`
 
-3. Under `locales/ja/LC_MESSAGES/` identify the .po files you want to translate. Copy these to a source directory if necessary.
+3. Under `locales/ja/LC_MESSAGES/` open the .po files you want to translate. Copy these to a source directory if necessary.
 
   For members who would like to use translation tools to contribute to this project, please refer to section 7 of this document page.
 
-4. Add source files identified above to translated content into the `msgstr` strings.
+4. Add translated content into the `msgstr` strings.
 
   The `.po` files contain elements like `msgid` and `msgstr`. The English source is in `msgid`, and you can add your translations into `msgstr`. If no translation is needed, you can leave the `msgstr` blank. The following example shows a French translation.
 
@@ -54,7 +54,7 @@ Fork the [Qiskit docs repo](https://github.com/Qiskit/qiskit) and make a local c
 5. Add your changes to the `.pot` files.
 
   ```
-  sphinx-intl update -p _build/locale
+  sphinx-intl update -p _build/locales
   ```
 
 6. Commit your changes and make a PR.
