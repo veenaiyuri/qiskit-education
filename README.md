@@ -1,5 +1,6 @@
 ![image of qiskit for educators](qiskit-edu.png)
 # Educator's Qiskit - a solution guide to help educators teach Quantum more easily and effectively
+[日本語はこちら](#the-solution-へようこそ！)
 
 # The problem
 
@@ -26,3 +27,6 @@ Simultneously, we are building the beta version of "Educator's Qiskit," a stable
 # Contribution Guidelines
 Qiskit Education invites educators and students in the field for input and guidance
 We will be providing contribution guidelines soon. 
+
+
+# The solutionへようこそ！
