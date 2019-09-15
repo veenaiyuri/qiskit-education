@@ -1,6 +1,6 @@
 ![image of qiskit for educators](qiskit-edu.png)
 # Educator's Qiskit - a solution guide to help educators teach Quantum more easily and effectively
-[日本語はこちら](#the-solution-へようこそ！)
+[日本語はこちら](#the-solutionへようこそ)
 
 # The problem
 
